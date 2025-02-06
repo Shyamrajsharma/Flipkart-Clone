@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+}
+* body{
+    background-color: white;
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+}
+#nav{
+    margin-top: 15px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+#nav .inside_1{
+    display: flex;
+    align-items: center;
+}
+.icon_bar{
+    width: 550px;
+    display: flex;
+    margin-left: 32px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.search_icon{
+    margin-left: 18px;
+    margin-right: 10px;
+}
+
+.search_icon img{
+    width: 25px;
+}
+.search_bar{
+    width: 100%;
+    border: none;
+}
+.search_bar input{
+    border: none;
+    background-color: aliceblue;
+    width: 100%;
+    font-size: 17px;
+}
+
+/* inside_2 */
+
+#nav .inside_2{
+ display: flex;
+ width: 100%;
+ justify-content: space-evenly;
+ padding-top: 9px;
+}
+.inside_2 .login_img{
+    display: flex;
+}
+.inside_2 .login_img .image{
+    padding-top: 4px;
+}
+.inside_2 .login_img button{
+    border: none;
+    display: flex;
+    margin-top: 5px;
+    font-size: large;
+    font-weight: lighter;
+    background-color: transparent;
+}
+.inside_2 .login_img .arrow{
+    padding-top: 7px;
+}
+.inside_2 .cart{
+    display: flex;
+    padding-top: 7px;
+}
+.inside_2 .cart .button button{
+    border: none;
+    background-color: transparent;
+    font-size: large;
+}
+.inside_2 .seller{
+    display: flex;
+    padding-top: 7px;
+}
+.inside_2 .seller button{
+    
+    border: none;
+    display: flex;
+    margin-top: 2px;
+    font-size: large;
+    font-weight: lighter;
+    background-color: transparent
+}
+.inside_2 .dots{
+    padding-top: 7px;
+}
+
+/* section-1 */
+
+#section-1{
+    background-color: gainsboro;
+    padding-top: 20px;
+}
+#section-1 .inside-section{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    margin-top: -7px;
+}
+#section-1 .inside-section .image_1{
+    height: 100%;
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 120px;
+}
+#section-1 .inside-section .image_1 button{
+    font-weight: bold;
+    border: none;
+    background-color: white;
+}
+
+/* Section-2 */
+#section-2 .add{
+    background-color:gainsboro;
+}
+#section-2 .add img{
+    margin-top: 11px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+/* Section-3 */
+.heading{
+    padding: 50px;
+}
+
+#section3{
+    margin-bottom: 50px;
+}
+#section3 .offers{
+    display: flex;
+    justify-content: space-evenly;
+}
+#section3 .offers .img{
+    display: flex;
+    height: 100%;
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 120px;
+}
+
+#section3 .offers .img img{
+    height: 190px;
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+#section3 .offers .btn button{
+    border: none;
+    background-color: white;
+}
+/* section-4 */
+#section-4 {
+    display: flex;
+}
+#section-4 .card{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+
+#section-4 .card .card-inside img{
+    margin-right: 7px;
+    margin-left: 7px;
+    height: 210px;
+}
+/* section-5 */
+#section-5{
+    display: flex;
+    justify-content: space-evenly;
+}
+#section-5 img{
+    height: 210px;
+}
+
+/* Section-6 */
+#section-6{
+    margin-left: 21px;
+    margin-top: 25px;
+}
+#section-6 .section {
+
+}
+#section-6 .section h4{
+
+margin-top: 10px;
+margin-bottom: 10px;
+    color: gray;
+}
+#section-6 .section p {
+    color: gray;
+font-size: smaller;
+}
+
+
+
+
+
+
+
+
