@@ -184,8 +184,8 @@
 }
 /* section-5 */
 #section-5{
-
     display: flex;
+    margin-top:40px;
     justify-content: space-evenly;
 }
 #section-5 img{
